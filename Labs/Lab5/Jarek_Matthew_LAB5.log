@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  16 MAR 2026 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  16 MAR 2026 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -657,12 +657,12 @@ Package hyperref Info: Link coloring OFF on input line 4.
 \@outlinefile=\write4
 \openout4 = `Jarek_Matthew_LAB5.out'.
 
-<images/Lab5_part1_circuit.png, id=55, 180.675pt x 66.2475pt>
+<images/Lab5_part1_circuit.png, id=71, 180.675pt x 66.2475pt>
 File: images/Lab5_part1_circuit.png Graphic file (type png)
 <use images/Lab5_part1_circuit.png>
 Package pdftex.def Info: images/Lab5_part1_circuit.png  used on input line 45.
 (pdftex.def)             Requested size: 79.85748pt x 29.2814pt.
-<images/Lab5_part1_hist.png, id=56, 455.301pt x 339.669pt>
+<images/Lab5_part1_hist.png, id=72, 455.301pt x 339.669pt>
 File: images/Lab5_part1_hist.png Graphic file (type png)
 <use images/Lab5_part1_hist.png>
 Package pdftex.def Info: images/Lab5_part1_hist.png  used on input line 58.
@@ -670,27 +670,41 @@ Package pdftex.def Info: images/Lab5_part1_hist.png  used on input line 58.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/Lab5_part1_circuit.png (PNG copy)>]
-<images/Lab5_part2_circuit.png, id=74, 285.065pt x 99.37125pt>
+<images/Lab5_part2_circuit.png, id=90, 285.065pt x 99.37125pt>
 File: images/Lab5_part2_circuit.png Graphic file (type png)
 <use images/Lab5_part2_circuit.png>
 Package pdftex.def Info: images/Lab5_part2_circuit.png  used on input line 88.
 (pdftex.def)             Requested size: 126.83585pt x 44.21324pt.
  [2 <./images/Lab5_part1_hist.png>]
-<images/Lab5_part2_hist.png, id=82, 455.301pt x 339.669pt>
+<images/Lab5_part2_hist.png, id=98, 455.301pt x 339.669pt>
 File: images/Lab5_part2_hist.png Graphic file (type png)
 <use images/Lab5_part2_hist.png>
 Package pdftex.def Info: images/Lab5_part2_hist.png  used on input line 103.
 (pdftex.def)             Requested size: 328.82706pt x 245.32338pt.
  [3 <./images/Lab5_part2_circuit.png (PNG copy)> <./images/Lab5_part2_hist.png>]
-File: images/Lab5_part2_circuit.png Graphic file (type png)
-<use images/Lab5_part2_circuit.png>
-Package pdftex.def Info: images/Lab5_part2_circuit.png  used on input line 129.
+<images/Lab5_part3_circuit.png, id=104, 285.065pt x 99.37125pt>
+File: images/Lab5_part3_circuit.png Graphic file (type png)
+<use images/Lab5_part3_circuit.png>
+Package pdftex.def Info: images/Lab5_part3_circuit.png  used on input line 129.
 (pdftex.def)             Requested size: 126.83585pt x 44.21324pt.
-File: images/Lab5_part2_hist.png Graphic file (type png)
-<use images/Lab5_part2_hist.png>
-Package pdftex.def Info: images/Lab5_part2_hist.png  used on input line 144.
+<images/Lab5_part3_hist.png, id=105, 455.301pt x 339.669pt>
+File: images/Lab5_part3_hist.png Graphic file (type png)
+<use images/Lab5_part3_hist.png>
+Package pdftex.def Info: images/Lab5_part3_hist.png  used on input line 145.
 (pdftex.def)             Requested size: 328.82706pt x 245.32338pt.
- [4] [5]
+ [4 <./images/Lab5_part3_circuit.png (PNG copy)>]
+<images/Lab5_part4_circuit.png, id=112, 334.24875pt x 114.4275pt>
+File: images/Lab5_part4_circuit.png Graphic file (type png)
+<use images/Lab5_part4_circuit.png>
+Package pdftex.def Info: images/Lab5_part4_circuit.png  used on input line 172.
+(pdftex.def)             Requested size: 126.83585pt x 43.42178pt.
+ [5 <./images/Lab5_part3_hist.png>]
+<images/Lab5_part4_hist.png, id=122, 455.301pt x 339.669pt>
+File: images/Lab5_part4_hist.png Graphic file (type png)
+<use images/Lab5_part4_hist.png>
+Package pdftex.def Info: images/Lab5_part4_hist.png  used on input line 187.
+(pdftex.def)             Requested size: 328.82706pt x 245.32338pt.
+ [6 <./images/Lab5_part4_circuit.png (PNG copy)> <./images/Lab5_part4_hist.png>]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./Jarek_Matthew_LAB5.aux)
  ***********
@@ -698,21 +712,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Jarek_Matthew_LAB5.out' has not changed.
-(rerunfilecheck)             Checksum: 02486F76DCA635190022B258D5AC6473;1171.
+(rerunfilecheck)             Checksum: 079D9E4535A06F4B8B0DA0D16720DE4D;1587.
  ) 
 Here is how much of TeX's memory you used:
- 33596 strings out of 474222
- 782254 string characters out of 5748734
+ 33635 strings out of 474222
+ 783356 string characters out of 5748734
  1941975 words of memory out of 5000000
- 55332 multiletter control sequences out of 15000+600000
+ 55364 multiletter control sequences out of 15000+600000
  559901 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,12n,110p,832b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Jarek_Matthew_LAB5.pdf (5 pages, 147574 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Jarek_Matthew_LAB5.pdf (6 pages, 201530 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
