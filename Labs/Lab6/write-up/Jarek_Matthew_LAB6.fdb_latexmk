@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1773853879.13477 "/home/matthew/Documents/Quantum_Information_Lab/Labs/Lab6/write-up/Jarek_Matthew_LAB6.tex" "Jarek_Matthew_LAB6.pdf" "Jarek_Matthew_LAB6" 1773853881.86921 0
+["pdflatex"] 1773854165.82015 "/home/matthew/Documents/Quantum_Information_Lab/Labs/Lab6/write-up/Jarek_Matthew_LAB6.tex" "Jarek_Matthew_LAB6.pdf" "Jarek_Matthew_LAB6" 1773854168.62516 0
   "/etc/texmf/web2c/texmf.cnf" 1772040083.95943 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/matthew/Documents/Quantum_Information_Lab/Labs/Lab6/write-up/Jarek_Matthew_LAB6.tex" 1773853877.27689 6159 0008a277c62b6cee8659335e38d454b1 ""
+  "/home/matthew/Documents/Quantum_Information_Lab/Labs/Lab6/write-up/Jarek_Matthew_LAB6.tex" 1773854162.2007 7869 cf5a8abb64af350aa62f14e0c034a4e8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -193,9 +193,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1773084862.22061 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1773085030 8215239 8697003158934e893fa31cae363c751d ""
-  "Jarek_Matthew_LAB6.aux" 1773853881.70886 1137 06393873978b57210cb4ab389792e8c5 "pdflatex"
-  "Jarek_Matthew_LAB6.out" 1773853881.70886 600 f4dd7aa5e935205781edefb49c66cca8 "pdflatex"
-  "Jarek_Matthew_LAB6.tex" 1773853877.27689 6159 0008a277c62b6cee8659335e38d454b1 ""
+  "Jarek_Matthew_LAB6.aux" 1773854168.47162 1476 e7644871bdf0f5a4dbe151ce8e98c0fe "pdflatex"
+  "Jarek_Matthew_LAB6.out" 1773854168.47262 900 49afe72d3ff5f27a8382452b952ac465 "pdflatex"
+  "Jarek_Matthew_LAB6.tex" 1773854162.2007 7869 cf5a8abb64af350aa62f14e0c034a4e8 ""
   "images/Lab6_part1_bloch_1.png" 1773852466.73961 95318 d32dedd4c6d1b85f3c9507f5e5840d2b ""
   "images/Lab6_part1_bloch_10.png" 1773852553.34952 95945 49e981e5068d85cef131a895281cae92 ""
   "images/Lab6_part1_bloch_2.png" 1773852443.79251 95510 780d91677d240498f5f250c8f1cc412b ""
