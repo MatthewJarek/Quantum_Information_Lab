@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  18 MAR 2026 13:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.9)  18 MAR 2026 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -760,37 +760,31 @@ Overfull \hbox (8.88162pt too wide) in paragraph at lines 84--90
 [] [] [] [] [] 
  []
 
-[2 <./images/Lab6_part2_circuit.png (PNG copy)> <./images/Lab6_part2_bloch_1.png> <./images/Lab6_part2_bloch_2.png> <./images/Lab6_part2_bloch_3.png> <./images/Lab6_part2_bloch_4.png> <./images/Lab6_part2_bloch_5.png>]
-File: images/Lab6_part2_circuit.png Graphic file (type png)
-<use images/Lab6_part2_circuit.png>
-Package pdftex.def Info: images/Lab6_part2_circuit.png  used on input line 125.
-(pdftex.def)             Requested size: 117.43875pt x 12.36194pt.
-File: images/Lab6_part2_bloch_1.png Graphic file (type png)
-<use images/Lab6_part2_bloch_1.png>
-Package pdftex.def Info: images/Lab6_part2_bloch_1.png  used on input line 140.
-(pdftex.def)             Requested size: 93.94955pt x 108.33737pt.
-File: images/Lab6_part2_bloch_2.png Graphic file (type png)
-<use images/Lab6_part2_bloch_2.png>
-Package pdftex.def Info: images/Lab6_part2_bloch_2.png  used on input line 141.
-(pdftex.def)             Requested size: 93.94955pt x 108.33737pt.
-File: images/Lab6_part2_bloch_3.png Graphic file (type png)
-<use images/Lab6_part2_bloch_3.png>
-Package pdftex.def Info: images/Lab6_part2_bloch_3.png  used on input line 142.
-(pdftex.def)             Requested size: 93.94955pt x 108.33737pt.
-File: images/Lab6_part2_bloch_4.png Graphic file (type png)
-<use images/Lab6_part2_bloch_4.png>
-Package pdftex.def Info: images/Lab6_part2_bloch_4.png  used on input line 143.
-(pdftex.def)             Requested size: 93.94955pt x 108.33737pt.
-File: images/Lab6_part2_bloch_5.png Graphic file (type png)
-<use images/Lab6_part2_bloch_5.png>
-Package pdftex.def Info: images/Lab6_part2_bloch_5.png  used on input line 144.
-(pdftex.def)             Requested size: 93.94955pt x 108.33737pt.
+[2 <./images/Lab6_part2_circuit.png (PNG copy)> <./images/Lab6_part2_bloch_1.png> <./images/Lab6_part2_bloch_2.png> <./images/Lab6_part2_bloch_3.png> <./images/Lab6_part2_bloch_4.png> <./images/Lab6_part2_bloch_5.png>] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
-Overfull \hbox (8.88162pt too wide) in paragraph at lines 139--145
-[] [] [] [] [] 
  []
 
-[3] [4]
+<images/Lab6_part3_circuit.png, id=104, 350.30875pt x 35.13126pt>
+File: images/Lab6_part3_circuit.png Graphic file (type png)
+<use images/Lab6_part3_circuit.png>
+Package pdftex.def Info: images/Lab6_part3_circuit.png  used on input line 175.
+(pdftex.def)             Requested size: 164.41711pt x 16.48917pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+<images/Lab6_part3_bloch.png, id=105, 339.669pt x 391.7034pt>
+File: images/Lab6_part3_bloch.png Graphic file (type png)
+<use images/Lab6_part3_bloch.png>
+Package pdftex.def Info: images/Lab6_part3_bloch.png  used on input line 179.
+(pdftex.def)             Requested size: 187.89912pt x 216.6867pt.
+[4 <./images/Lab6_part3_circuit.png (PNG copy)> <./images/Lab6_part3_bloch.png>]
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 200.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+) [5{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (./Jarek_Matthew_LAB6.aux)
  ***********
@@ -798,21 +792,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Jarek_Matthew_LAB6.out' has not changed.
-(rerunfilecheck)             Checksum: 49AFE72D3FF5F27A8382452B952AC465;900.
+(rerunfilecheck)             Checksum: 15325FACAAF43C3F374E4A41E7C8C274;920.
  ) 
 Here is how much of TeX's memory you used:
- 33672 strings out of 474222
- 785324 string characters out of 5748734
+ 33720 strings out of 474222
+ 786652 string characters out of 5748734
  1950975 words of memory out of 5000000
- 55417 multiletter control sequences out of 15000+600000
- 560209 words of font info for 44 fonts, out of 8000000 for 9000
+ 55451 multiletter control sequences out of 15000+600000
+ 560506 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,10n,110p,841b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Jarek_Matthew_LAB6.pdf (4 pages, 1386210 bytes).
+ 104i,12n,110p,841b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on Jarek_Matthew_LAB6.pdf (5 pages, 1530550 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

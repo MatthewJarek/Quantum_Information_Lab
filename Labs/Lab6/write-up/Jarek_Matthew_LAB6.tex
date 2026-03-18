@@ -118,34 +118,85 @@
         plot_bloch_multivector(state_2[4], title="Step 4: XZYX|0>")
     \end{verbatim}
 
-       \section{Pauli Ladder}
+    \section{Precision Target}
     \subsection{Calculations}
-    The flowing circuit is implemented, looking at the how the state vector changes on the Bloch sphere after initialization and each gate.
-    \begin{center}
-            \includegraphics[width = .25 \linewidth]{images/Lab6_part2_circuit.png}
-    \end{center}
-    \begin{center}
-        \begin{tabular}{|c|c|c|c|}
-            \hline
-            \textbf{Step} & \textbf{Bloch (x,y,z)} & \textbf{Angle from prev} & \textbf{Gate effect}\\ \hline
-            $\ket{0}$ & (0,0,1) & --- & Start\\ \hline
-            $\hat{X}$ & (0,0,-1) & 90$^\circ$ (off $z$-axis)& Equator (On $+x$ axis)\\ \hline
-            $\hat{Y}$ & (0,0,1) & 45$^\circ$ (off $x$-axis) & Half way between $+x$ and $+y$\\ \hline
-            $\hat{Z}$ & (0,0,1) & 45$^\circ$ (off $x$-axis) & On $+y$ axis \\ \hline
-            $\hat{X}$ & (0,0,-1) & 45$^\circ$ (off $x$-axis) & Half way between $-x$ and $+y$\\ \hline
-            \textbf{Total Path} & \multicolumn{2}{|c|}{180$^\circ$ (off $z$-axis)}& $\ket{1}$\\ \hline
-        \end{tabular}
-    \end{center}
-    This flips the vector switching between pointing up ($\ket{0}$) to down ($\ket{1}$) in the pattern: Up, Down, Up, Up, Down.\\
-            \includegraphics[width = .20 \linewidth]{images/Lab6_part2_bloch_1.png}
-            \includegraphics[width = .20 \linewidth]{images/Lab6_part2_bloch_2.png}
-            \includegraphics[width = .20 \linewidth]{images/Lab6_part2_bloch_3.png}
-            \includegraphics[width = .20 \linewidth]{images/Lab6_part2_bloch_4.png}
-            \includegraphics[width = .20 \linewidth]{images/Lab6_part2_bloch_5.png}
-    
+        Given any vector with the form:
+        \begin{equation}
+            \vec{r} = r_x\hat{x} + r_y\hat{y} + r_z\hat{y},
+        \end{equation}
+        a vector with equal direction but with unit magnitude can be detemined with the following equation
+        \begin{equation}
+            \hat{r} = \frac{r_x}{{\vec{\left|r\right|}}}\hat{x} + \frac{r_y}{\vec{{\left|r\right|}}}\hat{y} + \frac{r_z}{{\vec{\left|r\right|}}}\hat{z},
+        \end{equation} 
+        where
+        \begin{equation}
+            {{\left|\vec{r}\right|}} = \sqrt{{r_x}^2 + {r_y}^2 + {r_z}^2}.
+        \end{equation}
+        Once the vector is normalized, it can also be represented as
+        \begin{equation}
+            \hat{r} = \sin(\theta)\cos(\varphi)\hat{x} + \sin(\theta)\sin(\varphi)\hat{y} + \cos(\theta)\hat{z}
+        \end{equation}
+        From Eq. (2) and Eq. (4) equations to find both angles can be created. $\theta$ is simple,
+        \begin{equation}
+            \theta = \arccos\left(\frac{r_z}{{\vec{\left|r\right|}}}\right).
+        \end{equation} 
+        $\varphi$ takes a bit more manipulation,
+        \begin{align*}
+            \sin\left(\theta\right)\cos\left(\varphi\right) =  \frac{r_x}{{\vec{\left|r\right|}}}, &\quad \sin\left(\theta\right)\sin\left(\varphi\right) =  \frac{r_y}{{\vec{\left|r\right|}}},\\
+            \cos\left(\varphi\right) =  \frac{r_x}{{\vec{\left|r\right|}}\sin\left(\theta\right)}, &\quad \sin\left(\varphi\right) =  \frac{r_y}{{\vec{\left|r\right|}}\sin\left(\theta\right)},
+        \end{align*}
+        \begin{align*}
+            \tan\left(\varphi\right) &= \frac{r_y}{{\vec{\left|r\right|}}\sin\left(\theta\right)}\times\frac{{\vec{\left|r\right|}}\sin\left(\theta\right)}{r_x},\\     
+            \tan\left(\varphi\right) &= \frac{r_y}{r_x},
+        \end{align*}
+        which leads to
+        \begin{equation}
+            \varphi = \arctan\left(\frac{r_y}{r_x}\right).
+        \end{equation}
+        Using the equation
+        \begin{equation}
+            e^{-i\frac{\varphi}{2}}\cos\left(\frac{\theta}{2}\right)\ket{0} + e^{i\frac{\varphi}{2}}\sin\left(\frac{\theta}{2}\right)\ket{1},
+        \end{equation}
+        a final result for the state vector can be computed to check against the rotations, as this is equivalent to
+        \begin{equation}
+            RZ_\phi RY_\theta\ket{0}.
+        \end{equation}
+        Preforming the calculations, using ``np.array'' with ``dtype=np.longdouble'' to get up to 80 bits of precision results in the following angles
+        \begin{align*}
+            \theta &= 0.9157352247023152\\
+            \phi &= 0.6947382761967033\\
+        \end{align*}
+        and the following state vector
+        \begin{equation*}
+            (0.8434209057175263-0.3053604842456098i)\ket{0} + (0.415634232946849+0.15048034709754884i)\ket{1}.
+        \end{equation*}
+        Running the circuit below,\\
+        \begin{center}
+            \includegraphics[width = .35 \linewidth]{images/Lab6_part3_circuit.png}
+        \end{center}
+        results in the same state vector.\\
+        \begin{center}
+            \includegraphics[width = .40 \linewidth]{images/Lab6_part3_bloch.png}
+        \end{center}
     \subsection{Code}
     \begin{verbatim}
-       
+        # Use dtype=np.longdouble to have up to 80-bit precision
+        target = np.array([.6,.5,.6], dtype=np.longdouble)
+        #### Normalize #####
+        norm = 0
+        for i in target:
+            norm += i**2
+        norm = np.sqrt(norm)
+        normTarget = target/norm
+        #### Get theta ####
+        theta = np.arccos(normTarget[2])
+        #### Get phi ####
+        phi = np.arctan(normTarget[1]/normTarget[0])
+        qc_3 = QuantumCircuit(1)
+        qc_3.ry(theta, 0)
+        qc_3.rz(phi, 0)
+        state_3 = Statevector(qc_3)
+        plot_bloch_multivector(state_3, title="|0⟩ -> (0.6, 0.5, 0.6)")
     \end{verbatim}
     
 \end{document}
