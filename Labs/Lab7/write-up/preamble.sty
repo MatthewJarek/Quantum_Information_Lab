@@ -1,0 +1,35 @@
+\ProvidesPackage{preamble}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{physics}
+
+\usepackage{minted}
+\usemintedstyle{vs}
+\usepackage{pgfplots}
+    \pgfplotsset{width=7cm,compat=1.18}
+\usepackage{hyperref}
+\usepackage{tikz} %tikz is used to draw the glyphs
+\usepackage{tikz-3dplot}
+\usepackage{mathtools}
+\usetikzlibrary{arrows.meta, bending}
+\usetikzlibrary{shapes.geometric}
+\makeatletter
+
+\pagestyle{head}
+\firstpageheader{PHYS.4340L\\Quantum Information Lab}{UMASS-Lowell\\}{Matthew Jarek\\\today}
+\runningheader{PHYS.4340L\\}{UMASS-Lowell\\}{M. Jarek\\\thepage}
+
+\qformat{\textbf{Problem \questionlabel}\hfill}
+%\qformat{\textbf{Question \thequestion}\hfill}
+
+\renewcommand{\solutiontitle}{\noindent\textbf{Solution:}\par\noindent}
+\newcommand{\st}[0]{$^\text{st}$ }
+\newcommand{\nd}[0]{$^\text{nd}$ }
+\renewcommand{\abs}[1]{\left|{#1}\right|}
+\newcommand{\p}[1]{{\left({#1}\right)}}
+\newcommand{\ds}{\displaystyle}
+\renewcommand{\k}{\frac{1}{4\pi\epsilon_0}}
+\renewcommand{\outer}[2]{\ket{#1}\bra{#2}}
+\newcommand{\inner}[2]{\bra{#1}\ket{#2}}
+\newmintinline{python}{bgcolor=bg, frame=single}
